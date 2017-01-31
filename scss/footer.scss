@@ -1,0 +1,26 @@
+#footer-container {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4e4e4e;
+  margin-top: 8px;
+}
+
+ul#footer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+#footer {
+  margin: 0;
+    a:hover {
+      color: white;
+    }
+  }
+
+
+

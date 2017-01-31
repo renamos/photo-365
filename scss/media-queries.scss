@@ -1,0 +1,24 @@
+@media (max-width: 568px) {
+  #journal-title {
+    font-size: 2em;
+  }
+  #journal-caption{
+    font-size: .5em;
+  }
+  #recent-all-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  .recent-image-container{
+    width: 80%;
+    height: auto;
+  }
+  #footer{
+    font-size: .5em;
+    line-height: .5em;
+  }
+  #nav-bar > li{
+    font-size: .8em;
+  }
+}

@@ -1,0 +1,21 @@
+.recent-image-container{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  background: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8px;
+}
+
+.recent-image{
+  width: 100%;
+  height: auto;
+}
+
+#recent-all-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
