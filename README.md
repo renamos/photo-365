@@ -4,7 +4,7 @@ This is a labor of love. I designed and built my own daily photo blog to share w
 
 Key technologies used: 
 
-// HTML, CSS, JavaScript (ES6), React, React-router and Redux. Also had to build my own API to handle the Cloudinary upload, so this is a "full-stack" project.
+// HTML, CSS, JavaScript (ES6), React, React-router and Redux. Also had to build my own API to handle the Cloudinary upload, so this is a "full-stack" project: https://github.com/renamos/everyday-ramos-api
 
 # Key features:
 
