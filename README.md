@@ -1,6 +1,10 @@
 # EVERYDAY RAMOS
 
+Live version: http://everyday-ramos.surge.sh/
+
 This is a labor of love. I designed and built my own daily photo blog to share with the world some of my photography. I have many photos over the last several years that I haven't showed to anyone except my wife, just because I'm not much of a Facebook or Instagram post-er kinda guy. This gives me a way to share some of my favorite photos with the world.
+
+This app is only for personal use, but the I learned a ton from building it, mainly how to use React-Redux. It was my first time using React and Redux, so it helped lay the foundation for building future applications with the technologies.
 
 Key technologies used: 
 

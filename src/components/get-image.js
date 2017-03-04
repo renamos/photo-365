@@ -14,17 +14,19 @@ class GetImage extends React.Component {
             var imageTitle = <h1>{this.props.imageResponse.data.title}</h1>
             var imageDescription = <p className="description">{this.props.imageResponse.data.description}</p>
             var cameraSettings = <p className="cameraSettings">*{this.props.imageResponse.data.camera_settings}</p>
-        }
-        return (
-            <div id="last-image-container-container">
-                <div id="last-image-container">
-                    {image}
-                    {imageTitle}
-                    {imageDescription}
-                    {cameraSettings}
+
+            return (
+                <div id="last-image-container-container">
+                    <div id="last-image-container">
+                        {image}
+                        {imageTitle}
+                        {imageDescription}
+                        {cameraSettings}
+                    </div>
                 </div>
-            </div>
-        )
+            )
+        }
+        return <p>loading...</p>
     }
 }
 function mapStatetoProps(state) {

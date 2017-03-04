@@ -1,8 +1,8 @@
-@media (max-width: 568px) {
+@media (max-width: 414px) {
   #journal-title {
     font-size: 2em;
   }
-  #journal-caption{
+  #journal-caption {
     font-size: .5em;
   }
   #recent-all-container {
@@ -10,15 +10,37 @@
     flex-direction: column;
     align-items: center;
   }
-  .recent-image-container{
+  .recent-image-container {
     width: 80%;
     height: auto;
   }
-  #footer{
+  #footer-container {
     font-size: .5em;
-    line-height: .5em;
+    height: 100px;
   }
-  #nav-bar > li{
-    font-size: .8em;
+  #nav-bar {
+    li {
+      font-size: .5em;
+      padding: 10px !important;
+    }
+  }
+  #last-image-container {
+    p {
+      font-size: .5em;
+      padding: 10px;
+    }
+    h1 {
+      font-size: 1em;
+      padding: 10px;
+    }
+  }
+  #last-image-container-container {
+    margin-bottom: 7.75em;
+  }
+}
+
+@media(max-width: 320px) {
+  #last-image-container-container {
+    margin-bottom: 0;
   }
 }

@@ -8,9 +8,11 @@ export default class App extends Component {
     render() {
         return (
             <div>
+                <div id="container">
                 <Nav/>
                 <Header/>
                 {this.props.children}
+                </div>
                 <Footer/>
             </div>
         );

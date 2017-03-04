@@ -1,5 +1,6 @@
 #last-image-container-container{
   max-width:100%;
+  min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -16,14 +17,15 @@
 }
 
 #last-image-container{
-  -webkit-box-flex: 0;
-  -webkit-flex: none;
-  -ms-flex: none;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #last-image {
   margin-top: 14px;
-  max-width: 800px;
+  max-width: 100%;
   -webkit-box-shadow: 3px 3px 3px -2px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 3px 3px -2px rgba(0,0,0,0.75);
   box-shadow: 3px 3px 3px -2px rgba(0,0,0,0.75);
@@ -31,6 +33,7 @@
 
 
 #last-image-container > h1 {
+  width: 100%;
   margin: 15px 0 0 0;
   padding: 19px;
   font-size: 1.5em;
@@ -43,7 +46,7 @@
 
 
 #last-image-container > p {
-  max-width: 800px;
+  width: 100%;
   font-weight: 300;
 }
 
@@ -51,6 +54,7 @@
   background-color: #7a7a7a;
 }
 .cameraSettings, .description{
+  width: 100%;
   padding: 20px;
   margin: 0;
   box-sizing: border-box;

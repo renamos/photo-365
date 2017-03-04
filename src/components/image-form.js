@@ -3,7 +3,7 @@ import Dropzone from 'react-dropzone'
 import {saveImage} from '../actions/index'
 import {connect} from 'react-redux'
 import Loading from 'react-loading'
-import SweetAlert from 'sweetalert-react'
+
 
 class ImageForm extends React.Component {
 

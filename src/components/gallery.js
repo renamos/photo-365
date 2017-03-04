@@ -28,7 +28,6 @@ class Photos extends React.Component {
     render() {
         if (this.props.photosResponse.constructor === Object && this.props.photosResponse.isFetched) {
 
-            console.log(this.props.photosResponse.data)
             var gallery = this.createGallery(this.props.photosResponse.data)
             return (
                 <div id="recent-all-container">
@@ -36,7 +35,11 @@ class Photos extends React.Component {
                 </div>
             )
         }
-        return <h1>loading</h1>
+        return (
+        <div id="gallery-loading-container">
+            <h1>LOADING...</h1>
+        </div>
+        )
     }
 }
 function mapStatetoProps(state) {
